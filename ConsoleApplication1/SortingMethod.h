@@ -1,0 +1,6 @@
+
+enum SortingMethod
+{
+	BubbleSort,
+	QuickSort
+};
