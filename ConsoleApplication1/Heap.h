@@ -1,7 +1,7 @@
 #pragma once
 #include "Defaults.h"
 #include "Segment.h"
-#include "Exceptions.h"
+
 
 class Heap
 {

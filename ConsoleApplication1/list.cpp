@@ -43,7 +43,7 @@ void* List::Get(int pos)
 	return data;
 }
 
-List::Segment* List::GetSegment(int id)
+List::Segment* List::GetSegment(int id) 
 {
 	Segment* i = first;
 	int n = 0;
@@ -244,9 +244,6 @@ void List::DeleteSegment(Segment* segment)
 void* List::GetAccessor(int n)
 {
 	n += firstIndex;
-
-	if (n >= lastIndex)
-		throw Exceptions::ArgumentOutOfRange;
 
 	Segment* currentSegment = GetSegment(n / elementCount);
 	int elementIndex = n % elementCount;

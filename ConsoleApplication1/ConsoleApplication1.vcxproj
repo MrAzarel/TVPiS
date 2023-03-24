@@ -127,20 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Deque.cpp" />
     <ClCompile Include="Exception.cpp" />
     <ClCompile Include="Heap.cpp" />
     <ClCompile Include="list.cpp" />
+    <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Segment.cpp" />
+    <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Block.h" />
     <ClInclude Include="Defaults.h" />
+    <ClInclude Include="Deque.h" />
     <ClInclude Include="Exception.h" />
-    <ClInclude Include="Exceptions.h" />
     <ClInclude Include="Heap.h" />
     <ClInclude Include="list.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="Segment.h" />
     <ClInclude Include="SortingMethod.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
